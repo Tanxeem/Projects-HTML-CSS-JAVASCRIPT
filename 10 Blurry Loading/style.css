@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: 'Ubuntu';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+.bg {
+  background: url(src/img.JPG);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -30;
+  left: -30;
+  width:calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(100px);
+}
+
+
+.loading-text {
+  font-size: 50px;
+  color: black;
+}
